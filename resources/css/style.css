@@ -1,0 +1,44 @@
+/* GLOBAL */
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header {
+    text-align: left;
+    display: block;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    /*Need to align content vertically center*/
+    /*Need to align nav at end*/
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/* BODY CONTENT */
+
